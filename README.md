@@ -1,5 +1,7 @@
 # LogicCraft ⚡
 
+![LogicCraft Preview](preview.png)
+
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://python.org)
 [![Pygame CE](https://img.shields.io/badge/Pygame--CE-2.5%2B-brightgreen.svg?logo=pygame&logoColor=white)](https://pyga.me/)
 [![Tests Passing](https://img.shields.io/badge/Tests-17%2F17%20Passed-success.svg?logo=github-actions&logoColor=white)](#running-unit-tests)
