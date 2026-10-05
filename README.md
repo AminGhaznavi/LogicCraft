@@ -1,6 +1,5 @@
 # LogicCraft ⚡
 
-![LogicCraft Preview](preview.png)
 
 [![Python Version](https://img.shields.io/badge/Python-3.10%2B-blue.svg?logo=python&logoColor=white)](https://python.org)
 [![Pygame CE](https://img.shields.io/badge/Pygame--CE-2.5%2B-brightgreen.svg?logo=pygame&logoColor=white)](https://pyga.me/)
@@ -11,6 +10,9 @@
 **LogicCraft** is an object-oriented Digital Logic Circuit Simulator written in Python. It models electronic circuits as **Directed Acyclic Graphs (DAGs)**, computes deterministic signal propagation using **Topological Sorting** (Kahn's Algorithm), and provides an interactive visual canvas built with `pygame-ce` featuring real-time signal flows, interactive switches, and glowing LED outputs.
 
 ---
+
+![LogicCraft Preview](preview.png)
+
 
 ## Key Features
 
