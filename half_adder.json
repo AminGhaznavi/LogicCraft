@@ -1,0 +1,75 @@
+{
+  "name": "Half Adder",
+  "gates": [
+    {
+      "id": "in_a",
+      "type": "InputPin",
+      "name": "A",
+      "state": false
+    },
+    {
+      "id": "in_b",
+      "type": "InputPin",
+      "name": "B",
+      "state": false
+    },
+    {
+      "id": "xor_sum",
+      "type": "XORGate",
+      "name": "XOR_Sum"
+    },
+    {
+      "id": "and_carry",
+      "type": "ANDGate",
+      "name": "AND_Carry"
+    },
+    {
+      "id": "out_sum",
+      "type": "OutputPin",
+      "name": "Sum"
+    },
+    {
+      "id": "out_carry",
+      "type": "OutputPin",
+      "name": "Carry"
+    }
+  ],
+  "connections": [
+    {
+      "from_gate_id": "in_a",
+      "to_gate_id": "xor_sum",
+      "to_input_index": 0,
+      "from_output_index": 0
+    },
+    {
+      "from_gate_id": "in_b",
+      "to_gate_id": "xor_sum",
+      "to_input_index": 1,
+      "from_output_index": 0
+    },
+    {
+      "from_gate_id": "in_a",
+      "to_gate_id": "and_carry",
+      "to_input_index": 0,
+      "from_output_index": 0
+    },
+    {
+      "from_gate_id": "in_b",
+      "to_gate_id": "and_carry",
+      "to_input_index": 1,
+      "from_output_index": 0
+    },
+    {
+      "from_gate_id": "xor_sum",
+      "to_gate_id": "out_sum",
+      "to_input_index": 0,
+      "from_output_index": 0
+    },
+    {
+      "from_gate_id": "and_carry",
+      "to_gate_id": "out_carry",
+      "to_input_index": 0,
+      "from_output_index": 0
+    }
+  ]
+}

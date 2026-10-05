@@ -1,0 +1,2 @@
+# LogicCraft Requirements
+pygame-ce>=2.5.0
